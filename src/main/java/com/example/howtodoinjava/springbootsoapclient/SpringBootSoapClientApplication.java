@@ -85,7 +85,6 @@ public class SpringBootSoapClientApplication {
 			}
 
 		}
-		System.out.println(max + "--------" + maxvalue + "--------" + tm);
 		return null;
 	}
 }
