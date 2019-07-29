@@ -1,19 +1,16 @@
 package com.example.howtodoinjava.springbootsoapclient;
 
-import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeMap;
-import java.util.TreeSet;
-import java.util.Map.Entry;
 
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.example.howtodoinjava.schemas.school.UpdateScore;
-import com.example.howtodoinjava.schemas.school.UpdateScoreResponse;
+import com.example.howtodoinjava.schemas.kareo.UpdateScore;
+import com.example.howtodoinjava.schemas.kareo.UpdateScoreResponse;
 
 @SpringBootApplication
 public class SpringBootSoapClientApplication {
